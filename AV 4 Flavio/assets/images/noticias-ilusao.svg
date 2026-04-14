@@ -1,0 +1,18 @@
+<svg width="860" height="560" viewBox="0 0 860 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="560" rx="40" fill="#FFF7EB"/>
+  <rect x="74" y="78" width="712" height="404" rx="34" fill="#241C17"/>
+  <rect x="118" y="116" width="624" height="328" rx="28" fill="#2E241F"/>
+  <rect x="156" y="156" width="548" height="86" rx="24" fill="#B34324"/>
+  <text x="430" y="210" text-anchor="middle" fill="#FFF3E4" font-size="50" font-family="Trebuchet MS, sans-serif" font-weight="700">BONUS RELAMPAGO</text>
+  <rect x="156" y="270" width="172" height="114" rx="20" fill="#FFF2D7"/>
+  <rect x="344" y="270" width="172" height="114" rx="20" fill="#FFF2D7"/>
+  <rect x="532" y="270" width="172" height="114" rx="20" fill="#FFF2D7"/>
+  <circle cx="242" cy="327" r="28" fill="#E0A63B"/>
+  <path d="M430 300L453 327L430 354L407 327L430 300Z" fill="#B34324"/>
+  <path d="M595 302H641C654 302 664 312 664 325V333C664 346 654 356 641 356H595C582 356 572 346 572 333V325C572 312 582 302 595 302Z" fill="#E0A63B"/>
+  <path d="M662 102L688 138L734 144L703 175L710 220L662 201L614 220L621 175L590 144L636 138L662 102Z" fill="#E0A63B"/>
+  <path d="M128 90L142 118L173 122L151 143L156 174L128 160L100 174L105 143L83 122L114 118L128 90Z" fill="#E0A63B"/>
+  <path d="M112 474L169 417L226 474" stroke="#B34324" stroke-width="18" stroke-linecap="round"/>
+  <path d="M430 474L487 417L544 474" stroke="#E0A63B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M622 474L679 417L736 474" stroke="#B34324" stroke-width="18" stroke-linecap="round"/>
+</svg>
