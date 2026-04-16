@@ -9,7 +9,7 @@ const SLOT_SYMBOLS = [
 ];
 
 const SLOT_OUTCOMES = [
-    { id: "loss", chance: 0.72, payout: 0, label: "Sem premio" },
+    { id: "loss", chance: 0.92, payout: 0, label: "Sem premio" },
     { id: "normal", chance: 0.18, payout: 18, label: "Ganho normal" },
     { id: "super", chance: 0.08, payout: 35, label: "Super ganho" },
     { id: "mega", chance: 0.02, payout: 100, label: "Mega ganho" }
