@@ -1,0 +1,26 @@
+<svg width="860" height="560" viewBox="0 0 860 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="560" rx="40" fill="#FFF8EE"/>
+  <rect x="36" y="36" width="788" height="488" rx="28" fill="#F7EAD3"/>
+  <path d="M205 283C247 211 329 169 423 169C514 169 596 211 638 283" stroke="#C95C2C" stroke-width="18" stroke-linecap="round" stroke-dasharray="18 22"/>
+  <path d="M637 286C595 359 514 403 423 403C330 403 247 360 205 286" stroke="#E0A63B" stroke-width="18" stroke-linecap="round" stroke-dasharray="18 22"/>
+  <circle cx="206" cy="284" r="78" fill="#FFF4DB" stroke="#D07A28" stroke-width="10"/>
+  <circle cx="430" cy="145" r="78" fill="#FFF4DB" stroke="#B34324" stroke-width="10"/>
+  <circle cx="654" cy="284" r="78" fill="#FFF4DB" stroke="#D07A28" stroke-width="10"/>
+  <circle cx="430" cy="421" r="78" fill="#FFF4DB" stroke="#B34324" stroke-width="10"/>
+  <rect x="170" y="256" width="72" height="58" rx="14" fill="#B34324"/>
+  <path d="M188 270H224" stroke="#FFF8EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M188 289H224" stroke="#FFF8EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M425 111L457 145L425 179L393 145L425 111Z" fill="#E0A63B"/>
+  <rect x="616" y="250" width="76" height="68" rx="16" fill="#B34324"/>
+  <circle cx="654" cy="284" r="16" fill="#FFF8EE"/>
+  <path d="M407 394H454C468 394 480 405 480 419V448H380V419C380 405 392 394 407 394Z" fill="#E0A63B"/>
+  <path d="M432 420C445 414 454 403 458 390" stroke="#8A4F12" stroke-width="6" stroke-linecap="round"/>
+  <text x="206" y="347" text-anchor="middle" fill="#7C3B1D" font-size="34" font-family="Trebuchet MS, sans-serif" font-weight="700">Isca</text>
+  <text x="206" y="383" text-anchor="middle" fill="#6F5A4F" font-size="20" font-family="Trebuchet MS, sans-serif">bonus e brilho</text>
+  <text x="430" y="208" text-anchor="middle" fill="#7C3B1D" font-size="34" font-family="Trebuchet MS, sans-serif" font-weight="700">Clique</text>
+  <text x="430" y="244" text-anchor="middle" fill="#6F5A4F" font-size="20" font-family="Trebuchet MS, sans-serif">rodada rapida</text>
+  <text x="654" y="347" text-anchor="middle" fill="#7C3B1D" font-size="34" font-family="Trebuchet MS, sans-serif" font-weight="700">Quase ganho</text>
+  <text x="654" y="383" text-anchor="middle" fill="#6F5A4F" font-size="20" font-family="Trebuchet MS, sans-serif">mais vontade de tentar</text>
+  <text x="430" y="487" text-anchor="middle" fill="#7C3B1D" font-size="34" font-family="Trebuchet MS, sans-serif" font-weight="700">Perda</text>
+  <text x="430" y="523" text-anchor="middle" fill="#6F5A4F" font-size="20" font-family="Trebuchet MS, sans-serif">prejuizo acumulado</text>
+</svg>
