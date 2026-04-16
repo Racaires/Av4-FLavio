@@ -36,6 +36,27 @@ document.addEventListener("DOMContentLoaded", () => {
     prepararFormularioContato();
 });
 
+function configurarMenuMobile() {
+    const botaoMenu = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".site-nav");
+
+    if (!botaoMenu || !menu) {
+        return;
+    }
+
+    botaoMenu.addEventListener("click", () => {
+        const menuAberto = menu.classList.toggle("is-open");
+        botaoMenu.setAttribute("aria-expanded", String(menuAberto));
+    });
+
+    menu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+            menu.classList.remove("is-open");
+            botaoMenu.setAttribute("aria-expanded", "false");
+        });
+    });
+}
+
 function atualizarAnoRodape() {
     const anoAtual = document.getElementById("anoAtual");
 
