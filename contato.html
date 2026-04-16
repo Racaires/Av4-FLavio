@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Fale com a equipe da MicoBet</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="announcement">
+        <p>Fale com a equipe da MicoBet pelos canais abaixo.</p>
+    </div>
+
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="index.html">
+                <span class="brand__badge">MB</span>
+                <span class="brand__text">
+                    <strong>MicoBet</strong>
+                    <small>A casa onde a banca sempre sorri</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav">
+                <a href="index.html">Inicio</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="jogos.html">Jogos</a>
+                <a href="novidades.html">Novidades</a>
+                <a class="current" aria-current="page" href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero page-top">
+            <div class="container split-layout layout-grid layout-split">
+                <div class="text-stack stack-md">
+                    <p class="eyebrow">Fale com a equipe</p>
+                    <h1>Entre em contato com a equipe da MicoBet.</h1>
+                    <p>
+                        Tire duvidas, acompanhe novidades da casa e fale com a nossa equipe pelos canais oficiais.
+                    </p>
+                </div>
+                <div>
+                    <img class="section-image" src="assets/images/contato-apoio.svg" alt="Ilustracao de contato e apoio">
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-layout layout-grid layout-contact">
+                <form class="contact-form surface-card" id="formContato">
+                    <h2>Envie sua mensagem</h2>
+
+                    <label for="nome">Nome</label>
+                    <input id="nome" name="nome" type="text" placeholder="Digite seu nome">
+
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email" placeholder="Digite seu e-mail">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem"></textarea>
+
+                    <button class="button button--primary" type="submit">Enviar mensagem</button>
+                    <p class="form-status" id="formStatus">Deixe sua mensagem e entraremos em contato em breve.</p>
+                </form>
+
+                <aside class="contact-sidebar stack-md">
+                    <div class="aside-box surface-card card-pad">
+                        <h2>Canais da MicoBet</h2>
+                        <p><strong>E-mail:</strong> grupomicobet@exemplo.com</p>
+                        <p><strong>Telefone:</strong> (00) 99999-0000</p>
+                        <p><strong>Atendimento:</strong> segunda a sexta, das 18h as 22h</p>
+                    </div>
+
+                    <div class="aside-box surface-card card-pad">
+                        <h2>Redes e parceiros</h2>
+                        <ul class="social-links">
+                            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram oficial</a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Canal oficial</a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Pagina institucional</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>MicoBet - A sorte brilha mais no anuncio do que no saldo final.</p>
+            <p>&copy; <span id="anoAtual"></span> MicoBet.</p>
+        </div>
+    </footer>
+</body>
+</html>

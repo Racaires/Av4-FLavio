@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos | Simulacao de aposta da MicoBet</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="announcement">
+        <p>Experiencia simulada para fins educativos. Observe como os rolos criam emocao, mas nao mudam a vantagem da banca.</p>
+    </div>
+
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="index.html">
+                <span class="brand__badge">MB</span>
+                <span class="brand__text">
+                    <strong>MicoBet</strong>
+                    <small>A casa onde a banca sempre sorri</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav">
+                <a href="index.html">Inicio</a>
+                <a href="sobre.html">Sobre</a>
+                <a class="current" aria-current="page" href="jogos.html">Jogos</a>
+                <a href="novidades.html">Novidades</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero page-top">
+            <div class="container split-layout layout-grid layout-split">
+                <div class="text-stack stack-md">
+                    <p class="eyebrow">Simulacao pratica</p>
+                    <h1>Agora o jogo funciona como um caca-niquel satirico, com rolos, suspense e faixas de premio.</h1>
+                    <p>
+                        Cada giro custa R$ 10,00. O jogador pode ver combinacoes de ganho normal, super ganho e mega ganho,
+                        mas o sistema ainda foi desenhado para mostrar como a empolgacao pode esconder um resultado ruim no longo prazo.
+                    </p>
+                </div>
+                <div class="saldo-card surface-card">
+                    <img src="assets/images/mascote-mico-recortado.png" alt="Mascote da simulacao">
+                    <div>
+                        <span class="saldo-card__label">Saldo do jogador</span>
+                        <strong id="saldoUsuario">R$ 100,00</strong>
+                        <p>Custo por giro: R$ 10,00. Quanto mais a pessoa insiste, maior o risco de prejuizo acumulado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container slot-experience layout-grid layout-rail">
+                <div class="slot-machine surface-card card-pad">
+                    <div class="slot-machine__intro">
+                        <p class="eyebrow">Caca-niquel do mico</p>
+                        <h2>Fortuna do Mico</h2>
+                        <p>
+                            Os rolos giram, a tela destaca quase ganhos e os premios aparecem em faixas cada vez mais chamativas.
+                            E exatamente esse pacote visual que faz o jogo parecer mais generoso do que ele realmente e.
+                        </p>
+                    </div>
+
+                    <div class="slot-machine__cabinet">
+                        <div class="slot-machine__lights" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="slot-machine__screen">
+                            <div class="slot-machine__bar">
+                                <span>Aposta por giro: R$ 10,00</span>
+                                <span id="ultimoTipoPremio">Ultimo resultado: aguardando giro</span>
+                            </div>
+
+                            <div class="slot-reels" aria-label="Rolos da slot machine">
+                                <div class="slot-reel">
+                                    <div class="slot-symbol" id="slotReel1" data-symbol="banana">
+                                        <span class="slot-symbol__name">BANANA</span>
+                                        <small class="slot-symbol__hint">faixa comum</small>
+                                    </div>
+                                </div>
+                                <div class="slot-reel">
+                                    <div class="slot-symbol" id="slotReel2" data-symbol="coroa">
+                                        <span class="slot-symbol__name">COROA</span>
+                                        <small class="slot-symbol__hint">premio alto</small>
+                                    </div>
+                                </div>
+                                <div class="slot-reel">
+                                    <div class="slot-symbol" id="slotReel3" data-symbol="mico">
+                                        <span class="slot-symbol__name">MICO</span>
+                                        <small class="slot-symbol__hint">premio maximo</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slot-actions">
+                                <button class="button button--primary spin-button" id="spinButton" type="button">Girar os rolos</button>
+                                <button class="button button--ghost" id="resetButton" type="button">Reiniciar simulacao</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="slot-sidebar stack-md">
+                    <article class="paytable-card surface-card card-pad">
+                        <h2>Tabela de premios</h2>
+                        <ul class="paytable-list">
+                            <li>
+                                <div class="paytable-symbols">
+                                    <span class="symbol-badge" data-symbol="banana">BANANA</span>
+                                    <span class="symbol-badge" data-symbol="banana">BANANA</span>
+                                    <span class="symbol-badge" data-symbol="banana">BANANA</span>
+                                </div>
+                                <strong>Ganho normal: R$ 18,00</strong>
+                            </li>
+                            <li>
+                                <div class="paytable-symbols">
+                                    <span class="symbol-badge" data-symbol="coroa">COROA</span>
+                                    <span class="symbol-badge" data-symbol="coroa">COROA</span>
+                                    <span class="symbol-badge" data-symbol="coroa">COROA</span>
+                                </div>
+                                <strong>Super ganho: R$ 35,00</strong>
+                            </li>
+                            <li>
+                                <div class="paytable-symbols">
+                                    <span class="symbol-badge" data-symbol="mico">MICO</span>
+                                    <span class="symbol-badge" data-symbol="mico">MICO</span>
+                                    <span class="symbol-badge" data-symbol="mico">MICO</span>
+                                </div>
+                                <strong>Mega ganho: R$ 100,00</strong>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="paytable-card surface-card card-pad">
+                        <h2>Leitura critica</h2>
+                        <p>
+                            O jogo nao precisa premiar sempre. Ele so precisa premiar o suficiente para manter a expectativa viva.
+                        </p>
+                        <ul class="check-list">
+                            <li>Quase ganhos aumentam a vontade de tentar mais uma vez.</li>
+                            <li>Faixas como "super" e "mega" valorizam emocionalmente premios raros.</li>
+                            <li>A matematica continua negativa mesmo com premios chamativos.</li>
+                        </ul>
+                    </article>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section section--contrast">
+            <div class="container game-dashboard layout-grid layout-rail">
+                <div class="dashboard-main stack-md">
+                    <div class="status-panel status-panel--neutral" id="mensagemJogo" aria-live="polite">
+                        Clique em "Girar os rolos" para iniciar a simulacao.
+                    </div>
+
+                    <div class="stats-shell card-grid grid-three">
+                        <article class="stat-box surface-card card-pad">
+                            <span>Total de giros</span>
+                            <strong id="totalApostas">0</strong>
+                        </article>
+                        <article class="stat-box surface-card card-pad">
+                            <span>Ganhos normais</span>
+                            <strong id="totalGanhosNormais">0</strong>
+                        </article>
+                        <article class="stat-box surface-card card-pad">
+                            <span>Super ganhos</span>
+                            <strong id="totalSuperGanhos">0</strong>
+                        </article>
+                        <article class="stat-box surface-card card-pad">
+                            <span>Mega ganhos</span>
+                            <strong id="totalMegaGanhos">0</strong>
+                        </article>
+                        <article class="stat-box surface-card card-pad">
+                            <span>Derrotas</span>
+                            <strong id="totalDerrotas">0</strong>
+                        </article>
+                        <article class="stat-box surface-card card-pad">
+                            <span>Resultado acumulado</span>
+                            <strong id="resultadoAcumulado">R$ 0,00</strong>
+                        </article>
+                    </div>
+                </div>
+
+                <aside class="dashboard-side stack-md">
+                    <div class="aside-box surface-card card-pad">
+                        <h2>Licao matematica</h2>
+                        <p>
+                            Mesmo com categorias como ganho normal, super ganho e mega ganho, a simulacao continua favorecendo a casa.
+                            Isso acontece porque os premios mais altos aparecem muito menos do que a publicidade sugere.
+                        </p>
+                        <p class="mini-note" id="alertaRetorno">
+                            Se voce repetir os giros muitas vezes, a tendencia estatistica continua sendo terminar no prejuizo.
+                        </p>
+                    </div>
+
+                    <div class="history-card surface-card card-pad">
+                        <h2>Historico recente</h2>
+                        <ul class="history-list" id="historicoApostas">
+                            <li>O historico dos giros aparecera aqui.</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>MicoBet - A sorte brilha mais no anuncio do que no saldo final.</p>
+            <p>&copy; <span id="anoAtual"></span> MicoBet.</p>
+        </div>
+    </footer>
+</body>
+</html>
